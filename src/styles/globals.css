@@ -6,8 +6,8 @@
 .container{
       display: grid;
       gap: 20px;
-      padding: 10px;
-      margin: 40px;
+      padding: 5px;
+      margin: 20px;
       grid-template-columns: repeat(3, 1fr);
 
       }
@@ -23,57 +23,92 @@
       grid-template-columns: 1fr;
    }
 }
+@media (max-width: 900px) {
+   .contact {
+      grid-template-columns: repeat(3, 1fr);
+   }
+}
+
+@media (max-width: 600px) {
+   .contact {
+      grid-template-columns: 1fr;
+   }
+}
 .head{
     margin:8px;
     font-size: 15px;
     background-color:#222222;
     display: flex;
     flex-direction: row;
+    padding: 10px;
 
 }
 .layout1{
-   margin-left: 46px;
-   color: #87A3D2;
+   margin-left: 15px;
+   color: #514F4D;
    font-weight: bold
 }
 .about,.service,.contact{
    margin-left:12px;
-    color: #87A3D2;
+    color: #514F4D;
    font-weight: bold
-    padd
+    
 }
 
 .head1  {
     display: flex;
     flex-direction: row;
+   
 }
 .page{
    font-size: 25px;
-   margin-left: 50px;
-   
+   margin-left: 24px;
+   padding: 1px;
 }
 .para{
-    margin-left: 13px;
-    padding: 7px;
+    margin-left: 5px;
+    padding: 6px;
+    color: #959595;
+    font-size: 20px;
  }
-.a,.b,.c,.d,.e,.f,.g,.h,.i{
-  display: grid; 
-}
 .a,.b,.c,.d,.e,.f,.g,.h,.i{
     background-color: #CBCBCB;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 70px;
+    padding: 65px;
+    font-size: 30px;
+    margin: 2px;
+    color:#959595 ;
 }
  .res,.res2,.res3,.res4,.res5,.res6,.res7,.res8,.res9{
-    padding: 0;
-    margin: 0;
+    padding: 1px;
+    margin: 5px;
     font-size: 20px;
-    color: #87A3D2;
+    color: #428BCA;
  }
  .lorem,.lorem2,.lorem3,.lorem4,.lorem5,.lorem6,.lorem7,.lorem8,.lorem9{
     font-size:15px;
-    padding: 0px;
-    margin: 0;
+    padding: 2px;
+    margin: 5px;
+    color: #ABA4AD;
  }
+ .horizontal-line {
+   margin: auto;
+  width: 95vw;
+  height: 1px;
+  background-color: rgba(209, 197, 197, 0.548);
+  padding: auto;
+  
+}
+ .horizontal-line1 {
+  width: 95vw;
+  height: 1px;
+  background-color: rgba(209, 197, 197, 0.548);
+  margin: auto;
+  padding: auto;
+}
+.your{
+   padding: 40px;
+   color: #CAD6E0;
+}
